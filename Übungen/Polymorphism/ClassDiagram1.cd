@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Polymorphism.Classes.BaseModel" Collapsed="true">
-    <Position X="8.5" Y="1.25" Width="1.5" />
+  <Class Name="Polymorphism.Classes.BaseModel">
+    <Position X="8.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
       <FileName>Classes\BaseModel.cs</FileName>
@@ -52,7 +52,7 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="Polymorphism.Classes.Vehicle" Collapsed="true">
+  <Class Name="Polymorphism.Classes.Vehicle">
     <Position X="13" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAEAAAAAIEQAQAAAAAgAAAAEACCIABAAA=</HashCode>
@@ -61,14 +61,14 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="Polymorphism.Classes.Car" Collapsed="true">
-    <Position X="14.25" Y="4" Width="1.5" />
+    <Position X="15.5" Y="4" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
       <FileName>Classes\Car.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Polymorphism.Classes.Truck" Collapsed="true">
-    <Position X="12" Y="4" Width="1.5" />
+    <Position X="11" Y="4" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
       <FileName>Classes\Truck.cs</FileName>
