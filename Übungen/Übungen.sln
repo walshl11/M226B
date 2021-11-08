@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataWriter", "DataWriter\Da
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serialize", "Serialize\Serialize.csproj", "{C45CFBDC-3D2F-462C-8A77-11665F08FF1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphism", "Polymorphism\Polymorphism.csproj", "{B5D02451-AE37-4528-A113-3C905C768B5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polymorphism", "Polymorphism\Polymorphism.csproj", "{B5D02451-AE37-4528-A113-3C905C768B5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectOrientedDesign", "ObjectOrientedDesign\ObjectOrientedDesign.csproj", "{DD311A71-6833-49C4-8EBA-B703E5EB0742}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{B5D02451-AE37-4528-A113-3C905C768B5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5D02451-AE37-4528-A113-3C905C768B5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5D02451-AE37-4528-A113-3C905C768B5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD311A71-6833-49C4-8EBA-B703E5EB0742}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD311A71-6833-49C4-8EBA-B703E5EB0742}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD311A71-6833-49C4-8EBA-B703E5EB0742}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD311A71-6833-49C4-8EBA-B703E5EB0742}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Polymorphism.Interfaces
 {
-    public interface ILocation : IManageableEntity
+    public interface ILocation : IManageableEntity, IStatisticEntity
     {
         public string Name { get; set; }
 

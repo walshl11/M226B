@@ -18,11 +18,13 @@ namespace Polymorphism
 
             IManageableEntity location = new Person();
             IManageableEntity lol = new SalesManager();
+            location.Parent = "hdhued";
 
             Console.ReadKey();
 
             Location location1 = new Location();
             ILocation location2 = new Location();
+            location2.AddChild(customer);
 
 
             Person person1 = new Person();

@@ -1,98 +1,119 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Polymorphism.Classes.BaseModel">
-    <Position X="8.5" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
-      <FileName>Classes\BaseModel.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Polymorphism.Classes.Person" Collapsed="true">
-    <Position X="4" Y="2.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAIAAAAAEAAEAAAEQAQCAAAAAAAAAEAAAAAAAAA=</HashCode>
-      <FileName>Classes\Person.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.2" />
-  </Class>
-  <Class Name="Polymorphism.Classes.Customer" Collapsed="true">
-    <Position X="3" Y="4" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Classes\Customer.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Polymorphism.Classes.Employee" Collapsed="true">
-    <Position X="5.25" Y="4" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Classes\Employee.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Polymorphism.Classes.SalesManager" Collapsed="true">
-    <Position X="5.25" Y="5.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>CAAAAAAAAAAAAAAEAAAQAAAAABAAAAAAIAAAAAAAAAA=</HashCode>
-      <FileName>Classes\SalesManager.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Polymorphism.Classes.CarType" Collapsed="true">
-    <Position X="7.5" Y="2.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAABAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Classes\CarType.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.2" />
-  </Class>
-  <Class Name="Polymorphism.Classes.Location" Collapsed="true">
-    <Position X="9.75" Y="2.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAEAAAkgQCAAAEQAQACAAAAAAAAEAAAAAAAAI=</HashCode>
-      <FileName>Classes\Location.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.2" />
-  </Class>
   <Class Name="Polymorphism.Classes.Vehicle">
-    <Position X="13" Y="2.5" Width="1.5" />
+    <Position X="4.25" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAEAAAAAIEQAQAAAAAgAAAAEACCIABAAA=</HashCode>
       <FileName>Classes\Vehicle.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="Polymorphism.Classes.Car" Collapsed="true">
-    <Position X="15.5" Y="4" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
-      <FileName>Classes\Car.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Polymorphism.Classes.Truck" Collapsed="true">
-    <Position X="11" Y="4" Width="1.5" />
+  <Class Name="Polymorphism.Classes.Truck">
+    <Position X="5.5" Y="7.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
       <FileName>Classes\Truck.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="Polymorphism.Classes.SalesManager">
+    <Position X="10" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAEAAAQAAAAABAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Classes\SalesManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Polymorphism.Classes.Person">
+    <Position X="11" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAEAAEAAAEQAQCAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Classes\Person.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Polymorphism.Classes.Location">
+    <Position X="7.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAkgQCAAAEQAQACAAAAAAAAEAAAAAAAAI=</HashCode>
+      <FileName>Classes\Location.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Polymorphism.Classes.Employee">
+    <Position X="10" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Polymorphism.Classes.Customer">
+    <Position X="12.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Polymorphism.Classes.CarType">
+    <Position X="14.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\CarType.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Polymorphism.Classes.Car">
+    <Position X="3.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Classes\Car.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Polymorphism.Classes.BaseModel">
+    <Position X="8.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Classes\BaseModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Interface Name="Polymorphism.Interfaces.ICarType" Collapsed="true">
-    <Position X="16.75" Y="1.25" Width="1.5" />
+    <Position X="17" Y="2" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Interfaces\ICarType.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="Polymorphism.Interfaces.ILocation" Collapsed="true">
-    <Position X="2.5" Y="6.5" Width="1.5" />
+  <Interface Name="Polymorphism.Interfaces.ILocation">
+    <Position X="2.75" Y="13" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAQCAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Interfaces\ILocation.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="Polymorphism.Interfaces.IManageableEntity" Collapsed="true">
-    <Position X="2.5" Y="5.25" Width="1.5" />
+  <Interface Name="Polymorphism.Interfaces.IManageableEntity">
+    <Position X="2.75" Y="10.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAEAAAAAAEQAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
       <FileName>Interfaces\IManageableEntity.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Polymorphism.Interfaces.IBookableEntity" Collapsed="true">
+    <Position X="18.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IBookableEntity.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Polymorphism.Interfaces.IStatisticEntity">
+    <Position X="5.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IStatisticEntity.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Polymorphism.Interfaces.IBaseModel" Collapsed="true">
+    <Position X="17" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IBaseModel.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Font Name="Segoe UI" Size="9" />
