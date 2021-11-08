@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace ObjectOrientedDesign.Interfaces
 {
-    public interface IPerson
+    public interface IVehicleType
     {
-        public string FirstName { get; set; } 
-        public string SurName { get; set; }
+        void SetName(string name);
 
-        public string FullName { get; set; }
+        string GetName();
     }
 }

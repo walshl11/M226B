@@ -8,9 +8,10 @@ namespace ObjectOrientedDesign.Interfaces
 {
     public interface IPerson
     {
-        public string FirstName { get; set; } 
-        public string SurName { get; set; }
+        string GetName();
 
-        public string FullName { get; set; }
+        void SetName(string name);
+
+        void PrintInfo();
     }
 }
