@@ -10,9 +10,9 @@ namespace ObjectOrientedDesign.Classes
     {
         public override void Greet()
         {
-            Console.WriteLine($"Hello I am a Costumer, my name is {FullName}");
+            Console.WriteLine($"Hello I am a Customer, my name is {GetName()}");
         }
-        public Customer() : base()
+        public Customer(string firstname, string surname, int age) : base(firstname, surname, age)
         {
            
         }

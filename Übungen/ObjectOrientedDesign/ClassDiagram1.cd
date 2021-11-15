@@ -1,67 +1,84 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="ObjectOrientedDesign.Classes.Movie" Collapsed="true">
-    <Position X="7.75" Y="0.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAEAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Classes\Movie.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="ObjectOrientedDesign.Classes.Screen" Collapsed="true">
-    <Position X="7.75" Y="1.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Classes\Screen.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="ObjectOrientedDesign.Classes.Actor">
-    <Position X="5.25" Y="3.75" Width="1.5" />
+    <Position X="1.25" Y="7" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAQAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Classes\Actor.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ObjectOrientedDesign.Classes.Person">
-    <Position X="4.25" Y="0.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAEAAQACAAIAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Classes\Person.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.2" />
-  </Class>
   <Class Name="ObjectOrientedDesign.Classes.Customer">
-    <Position X="3" Y="3.75" Width="1.5" />
+    <Position X="4.75" Y="7" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Classes\Customer.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ObjectOrientedDesign.Classes.Reservation" Collapsed="true">
-    <Position X="9.5" Y="0.75" Width="1.5" />
+  <Class Name="ObjectOrientedDesign.Classes.Movie" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAEAAAAAAAAAEAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAKAAAAAAAAAAAEAAAEAAAAAAAAAAQAAABAA=</HashCode>
+      <FileName>Classes\Movie.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ObjectOrientedDesign.Classes.Person">
+    <Position X="3" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAABQABAAAAAAAAAAAAAAAAAAAgAAAAARACEBAA=</HashCode>
+      <FileName>Classes\Person.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ObjectOrientedDesign.Classes.Reservation" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACBIAAAAAAEAAAAACAAAAAEA=</HashCode>
       <FileName>Classes\Reservation.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
   </Class>
-  <Class Name="ObjectOrientedDesign.Classes.Seat" Collapsed="true">
-    <Position X="9.5" Y="1.75" Width="1.5" />
+  <Class Name="ObjectOrientedDesign.Classes.Seat" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.75" Y="1.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAACAAAAAAAAAAAAAAAIACAAABAIAAAAAAAAAiAAAAA=</HashCode>
       <FileName>Classes\Seat.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
   </Class>
-  <Interface Name="ObjectOrientedDesign.Interfaces.IPerson" Collapsed="true">
-    <Position X="7.75" Y="3" Width="1.5" />
+  <Interface Name="ObjectOrientedDesign.Interfaces.IPerson">
+    <Position X="0.5" Y="3" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAEAAAAAAAIAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>QAAAAAAAQABAAAAAAAAAAAAAAAAAAAAAAAAARACABAA=</HashCode>
       <FileName>Interfaces\IPerson.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Enum Name="ObjectOrientedDesign.LayoutEnum" Collapsed="true">
-    <Position X="7.75" Y="4" Width="1.5" />
+  <Interface Name="ObjectOrientedDesign.Interfaces.IMovie" Collapsed="true">
+    <Position X="6.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAEAAAAAAAAAAQAAABAA=</HashCode>
+      <FileName>Interfaces\IMovie.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ObjectOrientedDesign.Interfaces.IReservation" Collapsed="true">
+    <Position X="6.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Interfaces\IReservation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ObjectOrientedDesign.Interfaces.ISeats" Collapsed="true">
+    <Position X="8.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAIACAAAAAAAAAAAAAAAiAAAAA=</HashCode>
+      <FileName>Interfaces\ISeats.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="ObjectOrientedDesign.Enums.LayoutEnum" Collapsed="true">
+    <Position X="6.75" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAABAAAAEAAAAAAAQA=</HashCode>
-      <FileName>LayoutEnum.cs</FileName>
+      <FileName>Enums\LayoutEnum.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Font Name="Segoe UI" Size="9" />

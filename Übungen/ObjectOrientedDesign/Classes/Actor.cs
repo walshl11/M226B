@@ -8,13 +8,12 @@ namespace ObjectOrientedDesign.Classes
 {
     public class Actor : Person
     {
-        public IEnumerable<Movie> Movies { get; set; }
-
         public override void Greet()
         {
-            Console.WriteLine($"Hello I am an Actor, my name is {FullName}");
+            Console.WriteLine($"Hello I am a Actor, my name is {GetName()}");
         }
-        public Actor() : base()
+
+        public Actor(string firstname, string surname, int age) : base(firstname, surname, age)
         {
 
         }

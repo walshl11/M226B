@@ -7,25 +7,60 @@ using System.Threading.Tasks;
 
 namespace ObjectOrientedDesign.Classes
 {
-    public abstract class Person : IPerson
+    public class Person : IPerson
     {
-        public string FirstName { get; set; }
-        public string SurName { get; set; }
-        public string FullName { get; set; }
+        private string _firstname;
+        private string _surname;
+        private int _age;
+
+        public Person(string firstname, string surname, int age)
+        {
+            _firstname = firstname;
+            _surname = surname;
+            _age = age;
+        }
+
+        public int GetAge()
+        {
+            return _age;
+        }
+
+        public string GetName()
+        {
+            return _firstname + " " + _surname;
+        }
 
         public virtual void Greet()
         {
             Console.WriteLine("Hello I am an unidentified Person.");
         }
 
-        public Person()
+        public void PrintOutInformation()
         {
-            SetFullName();
+            Console.WriteLine($"Person {_firstname + " " + _surname}:");
+            Console.WriteLine($"Name:\t {_firstname + " " + _surname}");
+            Console.WriteLine($"Age:\t {_age}");
         }
 
-        public void SetFullName()
+        public IReservation ReserveMovieSeats(IMovie movie, int seatAmount)
         {
-            FullName = FirstName + " " + SurName;
+            string reservationName = $"New Reservation for {GetName()}";
+            IReservation newReservation = new Reservation(reservationName);
+
+            newReservation.ReserveSeats(this, movie, seatAmount);
+
+            return newReservation;
+        }
+
+        public void SetAge(int age)
+        {
+            _age = age;
+        }
+
+        public void SetName(string firstname, string surname)
+        {
+            _firstname = firstname;
+            _surname = surname;
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ObjectOrientedDesign.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,21 +7,33 @@ using System.Threading.Tasks;
 
 namespace ObjectOrientedDesign.Classes
 {
-    public class Movie
+    public class Movie : IMovie
     {
-        public string Title { get; set; }
-
-        public IEnumerable<Actor> Cast { get; set; }
-
-        public void AddActor(Actor actor)
-        {
-            Cast.ToList().Add(actor);
-        }
-
+        private string _title;
+        private IEnumerable<IPerson> _cast;
         public Movie()
         {
-            Title = "shit";
-            Cast = new List<Actor>();
+            _cast = new List<IPerson>();
+        }
+
+        public void AddToCast(IPerson person)
+        {
+            _cast = _cast.Append(person);
+        }
+
+        public List<IPerson> GetCast()
+        {
+            return _cast.ToList();
+        }
+
+        public string GetName()
+        {
+            return _title;
+        }
+
+        public void SetName(string name)
+        {
+            _title = name;
         }
     }
 }

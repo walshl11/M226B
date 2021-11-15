@@ -8,9 +8,18 @@ namespace ObjectOrientedDesign.Interfaces
 {
     public interface IPerson
     {
-        public string FirstName { get; set; } 
-        public string SurName { get; set; }
+        string GetName();
 
-        public string FullName { get; set; }
+        int GetAge();
+
+        void SetName(string firstname, string surname);
+
+        void PrintOutInformation();
+
+        void Greet();
+
+        void SetAge(int age);
+
+        IReservation ReserveMovieSeats(IMovie movie, int seatAmount);
     }
 }

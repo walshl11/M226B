@@ -20,13 +20,14 @@ namespace Polymorphism
             IManageableEntity lol = new SalesManager();
             location.Parent = "hdhued";
 
-            Console.ReadKey();
+            
 
             Location location1 = new Location();
             ILocation location2 = new Location();
             location2.AddChild(customer);
+            location.AddChild(location2);
 
-
+            Console.ReadKey();
             Person person1 = new Person();
             Person person45 = new Customer();
             Customer person3 = new Customer();
