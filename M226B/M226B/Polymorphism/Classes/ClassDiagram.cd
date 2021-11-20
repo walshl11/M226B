@@ -34,7 +34,7 @@
   <Class Name="Polymorphism.Classes.Customer">
     <Position X="7.5" Y="5.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
       <FileName>Classes\Customer.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -68,12 +68,12 @@
         <Point X="14.75" Y="1.796" />
         <Point X="14.75" Y="2.135" />
         <Point X="12.238" Y="2.135" />
-        <Point X="12.238" Y="3.812" />
-        <Point X="11" Y="3.812" />
+        <Point X="12.238" Y="3.706" />
+        <Point X="11" Y="3.706" />
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAIAAAAAEAAEAAAEQAQCAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAIAAAAAEAAAAAAEQAQCAAAAAAAAAEAAAAAAAAA=</HashCode>
       <FileName>Classes\Person.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -127,6 +127,13 @@
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAEAAAAAAEQAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
       <FileName>Interfaces\IManageableEntity.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Polymorphism.Interfaces.IPerson">
+    <Position X="22.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IPerson.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Font Name="Segoe UI" Size="9" />

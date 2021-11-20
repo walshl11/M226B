@@ -7,7 +7,7 @@ using Polymorphism.Interfaces;
 
 namespace Polymorphism.Classes
 {
-    public class Person : BaseModel, IManageableEntity
+    public class Person : BaseModel, IManageableEntity, IPerson
     {
         public object Parent { get; set; }
         
@@ -38,11 +38,6 @@ namespace Polymorphism.Classes
         public virtual void SetParent(object parent)
         {
             Parent = parent;
-        }
-
-        public override string ToString()
-        {
-            return base.ToString();
         }
     }
 }

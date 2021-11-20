@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31702.278
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MemoryStream", "MemoryStream\MemoryStream.csproj", "{77954310-A48B-482B-8565-7E03F3B3CBF2}"
 EndProject
@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsonLogging", "JsonLogging\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polymorphism", "Polymorphism\Polymorphism.csproj", "{8F39D581-4EBE-4731-80D8-DCF9A9D8A962}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectOrientedDesign", "ObjectOrientedDesign\ObjectOrientedDesign.csproj", "{3B3B2866-F987-4AA1-9D0D-C0A7286AB332}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObjectOrientedDesign", "ObjectOrientedDesign\ObjectOrientedDesign.csproj", "{3B3B2866-F987-4AA1-9D0D-C0A7286AB332}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events", "Events\Events.csproj", "{9949FDB3-2CD2-435B-9A94-2CA5B529F910}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{3B3B2866-F987-4AA1-9D0D-C0A7286AB332}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B3B2866-F987-4AA1-9D0D-C0A7286AB332}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B3B2866-F987-4AA1-9D0D-C0A7286AB332}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9949FDB3-2CD2-435B-9A94-2CA5B529F910}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9949FDB3-2CD2-435B-9A94-2CA5B529F910}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9949FDB3-2CD2-435B-9A94-2CA5B529F910}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9949FDB3-2CD2-435B-9A94-2CA5B529F910}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
