@@ -19,14 +19,17 @@ namespace ObjectOrientedDesign
             IPerson actor = new Actor("mairo", "regel", 69);
             IMovie movie = new Movie();
             IMovie movie2 = new Movie();
+            IReservation reservation = new Reservation("new reservation");
 
             movie.SetName("Shrek 420");
             movie.AddToCast(actor);
             movie2.SetName("Avengers 500");
             movie2.AddToCast(actor);
+            reservation.ReserveSeats(person, movie, 2);
 
             Movies.Add(movie);
             Movies.Add(movie2);
+            Reservations.Add(reservation);
 
             MainSwitch();
         }

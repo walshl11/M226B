@@ -15,6 +15,7 @@ namespace ObjectOrientedDesign.Classes
         public string ReservationName { get; set; }
         public Reservation(string reservationName)
         {
+            ReservationName = reservationName;
             _seats = new List<ISeats>();
         }
 
