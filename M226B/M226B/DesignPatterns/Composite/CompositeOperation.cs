@@ -6,32 +6,32 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.Composite
 {
-    public class CompositeOperation : OperationBase
+    public class CompositeOperation : IOperation
     {
         private double _value;
 
-        private List<OperationBase> _subOperations;
+        private List<IOperation> _subOperations;
 
         public CompositeOperation(double value)
         {
             _value = value;
-            _subOperations = new List<OperationBase>();
+            _subOperations = new List<IOperation>();
         }
 
-        public override double GetValue()
+        public double GetValue()
         {
             double totalValue = _value;
 
             checked
             {
-                foreach (OperationBase subOperation in _subOperations)
+                foreach (IOperation subOperation in _subOperations)
                     totalValue += subOperation.GetValue();
             }
 
             return totalValue;
         }
 
-        public override double Add(OperationBase op)
+        public double Add(IOperation op)
         {
             checked
             {
@@ -39,7 +39,7 @@ namespace DesignPatterns.Composite
             }
         }
 
-        public override double Subtract(OperationBase op)
+        public double Subtract(IOperation op)
         {
             checked
             {
@@ -47,7 +47,7 @@ namespace DesignPatterns.Composite
             }
         }
 
-        public override double Multiply(OperationBase op)
+        public double Multiply(IOperation op)
         {
             checked
             {
@@ -55,7 +55,7 @@ namespace DesignPatterns.Composite
             }
         }
 
-        public override double Divide(OperationBase op)
+        public double Divide(IOperation op)
         {
             checked
             {
@@ -63,7 +63,7 @@ namespace DesignPatterns.Composite
             }
         }
 
-        public override void AddChild(OperationBase op)
+        public void AddChild(IOperation op)
         {
             _subOperations.Add(op);
         }

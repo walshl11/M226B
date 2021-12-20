@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31613.86
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stream", "Stream\Stream.csproj", "{0126C44D-2932-41C3-90A5-5A8E10B55A46}"
 EndProject
@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polymorphism", "Polymorphis
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObjectOrientedDesign", "ObjectOrientedDesign\ObjectOrientedDesign.csproj", "{DD311A71-6833-49C4-8EBA-B703E5EB0742}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{430DC02F-9170-439B-87C6-855E15CC9EF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventArgs", "EventArgs\EventArgs.csproj", "{950849D4-9325-418D-A9FB-6EA0FE8DEDCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StubTest", "StubTest\StubTest.csproj", "{02CF6398-AB03-4F99-824C-323D98EC11A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +43,14 @@ Global
 		{DD311A71-6833-49C4-8EBA-B703E5EB0742}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD311A71-6833-49C4-8EBA-B703E5EB0742}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD311A71-6833-49C4-8EBA-B703E5EB0742}.Release|Any CPU.Build.0 = Release|Any CPU
-		{430DC02F-9170-439B-87C6-855E15CC9EF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{430DC02F-9170-439B-87C6-855E15CC9EF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{430DC02F-9170-439B-87C6-855E15CC9EF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{430DC02F-9170-439B-87C6-855E15CC9EF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{950849D4-9325-418D-A9FB-6EA0FE8DEDCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{950849D4-9325-418D-A9FB-6EA0FE8DEDCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{950849D4-9325-418D-A9FB-6EA0FE8DEDCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{950849D4-9325-418D-A9FB-6EA0FE8DEDCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02CF6398-AB03-4F99-824C-323D98EC11A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02CF6398-AB03-4F99-824C-323D98EC11A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02CF6398-AB03-4F99-824C-323D98EC11A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02CF6398-AB03-4F99-824C-323D98EC11A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

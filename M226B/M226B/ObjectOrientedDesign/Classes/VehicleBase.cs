@@ -27,6 +27,11 @@ namespace ObjectOrientedDesign.Classes
             return _type;
         }
 
+        public IVehicleType GetType()
+        {
+            throw new NotImplementedException();
+        }
+
         public void SetType(IVehicleType type)
         {
             _type = type;

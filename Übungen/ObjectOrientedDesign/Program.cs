@@ -20,6 +20,9 @@ namespace ObjectOrientedDesign
             IMovie movie = new Movie();
             IMovie movie2 = new Movie();
             IReservation reservation = new Reservation("new reservation");
+            //person.Greet();
+            //((Actor)actor).Greet();
+            //Console.ReadLine();
 
             movie.SetName("Shrek 420");
             movie.AddToCast(actor);

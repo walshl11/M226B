@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.Composite
 {
-    public class PrimitiveOperation : OperationBase
+    public class PrimitiveOperation : IOperation
     {
         private double _value;
 
@@ -15,12 +15,12 @@ namespace DesignPatterns.Composite
             _value = value;
         }
 
-        public override double GetValue()
+        public double GetValue()
         {
             return _value;
         }
 
-        public override double Add(OperationBase op)
+        public double Add(IOperation op)
         {
             checked
             {
@@ -28,7 +28,7 @@ namespace DesignPatterns.Composite
             }
         }
 
-        public override double Subtract(OperationBase op)
+        public double Subtract(IOperation op)
         {
             checked
             {
@@ -36,7 +36,7 @@ namespace DesignPatterns.Composite
             }
         }
 
-        public override double Multiply(OperationBase op)
+        public double Multiply(IOperation op)
         {
             checked
             {
@@ -44,7 +44,7 @@ namespace DesignPatterns.Composite
             }
         }
 
-        public override double Divide(OperationBase op)
+        public double Divide(IOperation op)
         {
             checked
             {
@@ -52,7 +52,7 @@ namespace DesignPatterns.Composite
             }
         }
 
-        public override void AddChild(OperationBase op)
+        public void AddChild(IOperation op)
         {
             throw new NotImplementedException("Primitive Operation does not support this Method.");
         }

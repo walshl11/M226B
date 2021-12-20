@@ -8,9 +8,14 @@ namespace ObjectOrientedDesign.Classes
 {
     public class Actor : Person
     {
-        public override void Greet()
+        public new void Greet()
         {
             Console.WriteLine($"Hello I am a Actor, my name is {GetName()}");
+        }
+
+        public new int GetAge()
+        {
+            return base.GetAge() + 5;
         }
 
         public Actor(string firstname, string surname, int age) : base(firstname, surname, age)

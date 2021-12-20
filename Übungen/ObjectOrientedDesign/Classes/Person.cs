@@ -30,7 +30,7 @@ namespace ObjectOrientedDesign.Classes
             return _firstname + " " + _surname;
         }
 
-        public virtual void Greet()
+        public void Greet()
         {
             Console.WriteLine("Hello I am an unidentified Person.");
         }
